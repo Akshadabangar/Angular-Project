@@ -1,0 +1,34 @@
+
+
+<!--SEARCH BUTTON-->
+  <form >
+    <div class="container">
+    <label for="search"></label>
+    <input type="text" id="search" name="q" placeholder="Search your city">
+    <input type="submit" value="Search">
+    </div>
+  </form>
+  
+
+  
+  <!--PUNE/MUMBAI/NASHIK-->
+
+<div class="container">
+  <div style="margin-top: 50px;">
+
+<button routerLink="/pune">Pune</button>
+<span style="margin-right: 30px;"></span> 
+<router-outlet></router-outlet>
+
+<button routerLink="/mumbai">Mumbai</button>
+<span style="margin-right: 30px;"></span> 
+<router-outlet></router-outlet>
+
+<button routerLink="/nashik">Nashik</button>
+<span style="margin-right: 30px;"></span> 
+<router-outlet></router-outlet>
+
+
+</div>
+
+

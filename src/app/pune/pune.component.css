@@ -1,0 +1,14 @@
+.shadow-image {
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+
+.name {
+    position: absolute;
+    bottom:14;
+   
+    color:black; 
+    font-size: 20px; 
+}
+

@@ -1,0 +1,77 @@
+
+<div style="margin-top: 40px;"></div>
+<!--FST CAKE INFORMATION-->
+<img class="img-deg" [src]="url" height="250" width="250">
+
+<div class="cake-info">
+<p>Flavour:{{flavour}}</p>
+<p>Ingredients:</p>
+  <ul>
+    <li *ngFor="let ingredient of ingredients">{{ ingredient }}</li>
+  </ul>
+  <p>Description: {{ description }}</p>
+  <p>This cake is purely homemade.</p>
+  <p>Price: ${{ price }}</p>
+
+  <div class="button">
+  <button (click)="textbox1()" style="color: chocolate;">Order</button>
+  <div *ngIf="showtextbox1">
+    <input type="text" placeholder="Enter your order...">
+  </div>
+
+  <button (click)="submitorder1()" style="color: blue;">Submit</button>
+</div>
+</div>
+
+
+<div style="margin-top: 80px;"></div>
+<!--Second CAKE INFORMATION-->
+<img class="img-deg" [src]="url2" height="250" width="250">
+    
+    <div class="cake-info">
+    <p>Flavour:{{flavour1}}</p>
+    <p>Ingredients:</p>
+      <ul>
+        <li *ngFor="let ingredient of ingredients1">{{ ingredient }}</li>
+      </ul>
+      <p>Description: {{ description1 }}</p>
+      <p>Enjoy your delicious homemade butterscotch cake!</p>
+      <p>Price: ${{ price1 }}</p>
+ 
+      <div class="button">
+        <button (click)="textbox2()" style="color: chocolate;">Order</button>
+        <div *ngIf="showtextbox2">
+          <input type="text" placeholder="Enter your order...">
+        </div>
+      
+        <button (click)="submitorder2()" style="color: blue;">Submit</button>
+      </div>
+
+    </div>
+  
+
+    <div style="margin-top: 80px;"></div>
+<!--THIRD CAKE INFORMATION-->
+<img class="img-deg" [src]="url3" height="250" width="250">
+    
+    <div class="cake-info">
+    <p>Flavour:{{flavour2}}</p>
+    <p>Ingredients:</p>
+      <ul>
+        <li *ngFor="let ingredient of ingredients2">{{ ingredient }}</li>
+      </ul>
+      <p>Description: {{ description2 }}</p>
+      <p>Enjoy your delicious homemade Strawberry cake!</p>
+      <p>Price: ${{ price2 }}</p>
+
+      <div class="button">
+        <button (click)="textbox3()" style="color: chocolate;">Order</button>
+        <div *ngIf="showtextbox3">
+          <input type="text" placeholder="Enter your order...">
+        </div>
+      
+        <button (click)="submitorder3()" style="color: blue;">Submit</button>
+      </div>
+</div>
+  
+    
