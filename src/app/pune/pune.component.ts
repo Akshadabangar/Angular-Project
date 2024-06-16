@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class PuneComponent {
 
   
-akshadaurl="https://tse1.mm.bing.net/th?id=OIP.cov40pcUyl5AAs0k8MRVawHaLJ&pid=Api&P=0&h=180";
-sonaliurl="https://tse1.mm.bing.net/th?id=OIP.q6hS-0RWK8iZcQsx1uYAmgHaLD&pid=Api&P=0&h=180";
-sayaliurl="https://i.pinimg.com/originals/51/fe/18/51fe180cc453fccbf05652ad051b4803.jpg";
+akshadaurl="https://4.bp.blogspot.com/-2MQP5D_p5s0/WQbIjpPA8_I/AAAAAAAAGXs/6vNC4ogcw9ESmxOx_R69upefdS0LGm53wCLcB/s1600/f2794b6dff83ba4c11ab8de0f467a5ef.jpg";
+sonaliurl="https://wallpapercave.com/wp/wp4603353.jpg";
+sayaliurl="https://wallpapercave.com/wp/wp2586728.jpg";
 }

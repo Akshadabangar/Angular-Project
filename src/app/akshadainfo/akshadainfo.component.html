@@ -26,9 +26,9 @@
   <button (click)="TextBox()" style="color:chocolate;">Order</button>
   <div *ngIf="showTextBox">
     <input type="text" placeholder="Enter your order..." style="width: 200px; height: 30px;">
+    <button (click)="submitOrder()" style="color: blue;">Submit</button>
   </div>
 
-<button (click)="submitOrder()" style="color: blue;">Submit</button>
 </div>
 </div>
 
@@ -52,9 +52,10 @@
    <button (click)="textbox1()" style="color:chocolate;">Order</button>
    <div *ngIf="showTextBox1">
    <input type="text" placeholder="Enter your order..." style="width: 200px; height: 30px;">
+   <button (click)="submitOrder1()" style="color: blue;">Submit</button>
    </div>
 
-   <button (click)="submitOrder1()" style="color: blue;">Submit</button>
+   
   </div>
   </div>
   
@@ -77,10 +78,11 @@
       <div class="button">
       <button (click)="textbox2()" style="color: chocolate;">Order</button>
        <div *ngIf="showTextBox2">
-        <input type="text" placeholder="Enter your order">
+        <input type="text" placeholder="Enter your order" style="width: 200px; height: 30px;">
+        <button (click)="submitOrder2()" style="color: blue;">Submit</button>
        </div>
 
-       <button (click)="submitOrder2()" style="color: blue;">Submit</button>
+       
     </div>
   </div>
 
