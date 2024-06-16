@@ -23,9 +23,9 @@ export class SayaliinfoComponent {
   price2: number = 7;
   
   
-  url="https://i0.wp.com/gurgaonbakers.com/wp-content/uploads/2020/11/large-chocolaty-birthday-cake.jpg";
-  url2="https://images.squarespace-cdn.com/content/v1/57436135746fb9854e890df5/1571862502957-4EU7Z27SDWSRSXQ8XY8G/ke17ZwdGBToddI8pDm48kJb6FGUYafjh7GEl2R-viwcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2Px-K4etZrcbcMhUYMGWEXzYb5kEmBoKCWTa8yFY1ll-bhuOb0MAcXaQ6whlEkpec/MinnieUnicornCake.jpg?format=2500w";
-  url3="https://i.pinimg.com/736x/5d/ed/18/5ded184aeb072ea1ae7ce7f90fb82d6c.jpg"; 
+  url="https://img.freepik.com/premium-photo/whole-fancy-chocolate-cake-white-background_908985-33714.jpg";
+  url2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tHhnxoUtxHSYWJw7sFkwkYZ8-_RAl9mVCQ&s";
+  url3="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FEdit%2F2023-01-Chocolate-Strawberry-Cakes%2Fchocolate-strawberry-cake-1"; 
 
 
 showtextbox1:boolean=false;
