@@ -45,7 +45,7 @@ TextBox(){
 }
 
 submitOrder(){
-  console.log('Order submitted:', this.orderText1);
+  console.log('Order submitted:', this.orderText);
     
     this.orderText = '';
     this.showTextBox = false;
@@ -57,7 +57,7 @@ textbox1(){
 }
 
 submitOrder1(){
-  console.log('Order submitted:', this.orderText);
+  console.log('Order submitted:', this.orderText1);
     
     this.orderText1 = '';
     this.showTextBox1 = false;

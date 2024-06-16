@@ -4,9 +4,9 @@ import path from 'path';
 import { PuneComponent } from './pune/pune.component';
 import { NashikComponent } from './nashik/nashik.component';
 import { MumbaiComponent } from './mumbai/mumbai.component';
-import { AkshadainfoComponent } from './akshadainfo/akshadainfo.component';
-import { SonaliinfoComponent } from './sonaliinfo/sonaliinfo.component';
-import { SayaliinfoComponent } from './sayaliinfo/sayaliinfo.component';
+import { AkshadainfoComponent } from './pune/akshadainfo/akshadainfo.component';
+import { SonaliinfoComponent } from './pune/sonaliinfo/sonaliinfo.component';
+import { SayaliinfoComponent } from './pune/sayaliinfo/sayaliinfo.component';
 
 const routes: Routes = [
 

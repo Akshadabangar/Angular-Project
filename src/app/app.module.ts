@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { PuneComponent } from './pune/pune.component';
 import { MumbaiComponent } from './mumbai/mumbai.component';
 import { NashikComponent } from './nashik/nashik.component';
-import { AkshadainfoComponent } from './akshadainfo/akshadainfo.component';
-import { SonaliinfoComponent } from './sonaliinfo/sonaliinfo.component';
-import { SayaliinfoComponent } from './sayaliinfo/sayaliinfo.component';
+import { AkshadainfoComponent } from './pune/akshadainfo/akshadainfo.component';
+import { SonaliinfoComponent } from './pune/sonaliinfo/sonaliinfo.component';
+import { SayaliinfoComponent } from './pune/sayaliinfo/sayaliinfo.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
