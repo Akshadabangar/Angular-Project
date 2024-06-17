@@ -1,0 +1,90 @@
+<div style="margin-top: 40px;"></div>
+
+<div class="col-sm">
+  <img class="shadow-image" [src]="vidyaurl"  width="230" height="300"  alt="Sonali Bangar" routerLink="/sonali" >
+  <figcaption>Vidya Morde</figcaption>
+  <span style="margin-right: 30px;"></span>
+  <router-outlet></router-outlet>
+  </div>
+  <div style="margin-top: 10px;"></div>
+
+<!--FST CAKE INFORMATION-->
+<img class="img-deg" [src]="url" height="250" width="250">
+
+<div class="cake-info">
+<p>Flavor: {{flavour}}</p>
+<p>Ingredients:</p>
+  <ul>
+    <li *ngFor="let ingredient of ingredients">{{ ingredient }}</li>
+  </ul>
+  <p>Description: {{ description }}</p>
+  <p>This cake is purely homemade and healthy.</p>
+  <p>Price: ${{ price }}</p>
+
+<div class="button">
+  <button (click)="textbox1()" style="color:chocolate">Order</button>
+  <div *ngIf="showtextbox1">
+  <input type="text" [(ngModel)]="orderText1" placeholder="Enter your order..." style="width: 200px; height: 50px;">
+  <button (click)="submitOrder1()" style="color: blue;">Submit</button>
+  {{orderText1}}
+  </div>
+
+  
+</div>
+</div>
+
+
+<div style="margin-top: 80px;"></div>
+<!--SECOND CAKE INFORMATION-->
+<img class="img-deg" [src]="url2" height="250" width="250">
+    
+    <div class="cake-info">
+    <p>Flavor: {{flavour1}}</p>
+    <p>Ingredients:</p>
+      <ul>
+        <li *ngFor="let ingredient of ingredients1">{{ ingredient }}</li>
+      </ul>
+      <p>Description: {{ description1 }}</p>
+      <p>Enjoy your delicious homemade Chocolate cake!</p>
+      <p>Price: ${{ price1 }}</p>
+
+      <div class="button">
+        <button (click)="textbox2()" style="color:chocolate">Order</button>
+        <div *ngIf="showtextbox2">
+        <input type="text" [(ngModel)]="orderText2" placeholder="Enter your order..." style="width: 200px; height: 50px;" >
+       <button (click)="submitOrder2()" style="color: blue;">Submit</button>
+       {{orderText2}}
+        </div>
+      
+        
+      </div>
+    </div>
+  
+
+  <div style="margin-top: 80px;"></div>
+<!--third CAKE INFORMATION-->
+<img class="img-deg" [src]="url3" height="250" width="250">
+    
+    <div class="cake-info">
+    <p>Flavor: {{flavour2}}</p>
+    <p>Ingredients:</p>
+      <ul>
+        <li *ngFor="let ingredient of ingredients2">{{ ingredient }}</li>
+      </ul>
+      <p>Description: {{ description2 }}</p>
+      <p>Enjoy your delicious homemade ButterScotch cake!</p>
+      <p>Price: ${{ price2 }}</p>
+ 
+      <div class="button">
+        <button (click)="textbox3()" style="color:chocolate">Order</button>
+        <div *ngIf="showtextbox3">
+        <input type="text" [(ngModel)]="orderText3" placeholder="Enter your order..." style="width: 200px; height: 50px;" >
+       <button (click)="submitOrder3()" style="color: blue;">Submit</button>
+        {{orderText3}}
+        </div>
+      
+        
+      </div>
+
+    </div>
+  

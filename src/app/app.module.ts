@@ -10,6 +10,10 @@ import { AkshadainfoComponent } from './pune/akshadainfo/akshadainfo.component';
 import { SonaliinfoComponent } from './pune/sonaliinfo/sonaliinfo.component';
 import { SayaliinfoComponent } from './pune/sayaliinfo/sayaliinfo.component';
 import { FormsModule } from '@angular/forms';
+import { BhavanaComponent } from './mumbai/bhavana/bhavana.component';
+import { SakshiComponent } from './mumbai/sakshi/sakshi.component';
+import { VidyaComponent } from './mumbai/vidya/vidya.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { FormsModule } from '@angular/forms';
     NashikComponent,
     AkshadainfoComponent,
     SonaliinfoComponent,
-    SayaliinfoComponent
+    SayaliinfoComponent,
+    BhavanaComponent,
+    SakshiComponent,
+    VidyaComponent
+    
   ],
   imports: [
     BrowserModule,

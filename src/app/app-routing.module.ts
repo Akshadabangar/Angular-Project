@@ -7,6 +7,9 @@ import { MumbaiComponent } from './mumbai/mumbai.component';
 import { AkshadainfoComponent } from './pune/akshadainfo/akshadainfo.component';
 import { SonaliinfoComponent } from './pune/sonaliinfo/sonaliinfo.component';
 import { SayaliinfoComponent } from './pune/sayaliinfo/sayaliinfo.component';
+import { BhavanaComponent } from './mumbai/bhavana/bhavana.component';
+import { SakshiComponent } from './mumbai/sakshi/sakshi.component';
+import { VidyaComponent } from './mumbai/vidya/vidya.component';
 
 const routes: Routes = [
 
@@ -15,7 +18,12 @@ const routes: Routes = [
   {path:'nashik',component:NashikComponent},
   {path:'akshada',component:AkshadainfoComponent},
   {path:'sonali',component:SonaliinfoComponent},
-  {path:'sayali',component:SayaliinfoComponent}
+  {path:'sayali',component:SayaliinfoComponent},
+  {path:'bhavana',component: BhavanaComponent},
+  {path:'sakshi',component: SakshiComponent},
+  {path:'vidya',component:VidyaComponent}
+ 
+  
 
 ];
 

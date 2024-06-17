@@ -1,0 +1,40 @@
+.img-deg{
+
+    float: left;
+  
+}
+
+.pos-img{
+    position:absolute;
+    width: 90%;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.button{
+  margin-left: 50px;
+}
+
+.cake-info {
+    display: flex; 
+    flex-direction: column; 
+    align-items:start; 
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  
+  .cake-info p {
+    margin-bottom: 5px; 
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 50px;
+  }
+  
+  .cake-info ul {
+    padding-left: 20px;
+    margin-left: 50px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .cake-info img {
+    margin-top: 10px; 
+  }
