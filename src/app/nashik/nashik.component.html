@@ -1,1 +1,28 @@
-<p>nashik works!</p>
+<div style="margin-top: 60px;"></div>
+
+<div class="row">
+   <div class="col-sm">
+   <img class="shadow-image" [src]="omurl"  width="200" height="250"   routerLink="/om">
+   <figcaption>Om Jadhav</figcaption>
+   <span style="margin-right: 30px;"></span>
+   <router-outlet></router-outlet>
+</div>
+
+
+   <div class="col-sm">
+    <img class="shadow-image" [src]="kajalurl"  width="200" height="250" routerLink="/kajal"  >
+    <figcaption>Kajal Wable</figcaption>
+    <span style="margin-right: 30px;"></span>
+    <router-outlet></router-outlet>
+    </div>
+
+    <div class="col-sm">
+    <img class="shadow-image" [src]="heenaurl"  width="200" height="250"  routerLink="/heena"  >
+    <figcaption>Heena Mandal</figcaption>
+    <span style="margin-right: 30px;"></span>
+    <router-outlet></router-outlet>
+ </div>
+   </div>
+
+
+

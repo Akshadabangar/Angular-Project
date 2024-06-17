@@ -10,6 +10,9 @@ import { SayaliinfoComponent } from './pune/sayaliinfo/sayaliinfo.component';
 import { BhavanaComponent } from './mumbai/bhavana/bhavana.component';
 import { SakshiComponent } from './mumbai/sakshi/sakshi.component';
 import { VidyaComponent } from './mumbai/vidya/vidya.component';
+import { OmComponent } from './nashik/om/om.component';
+import { KajalComponent } from './nashik/kajal/kajal.component';
+import { HeenaComponent } from './nashik/heena/heena.component';
 
 const routes: Routes = [
 
@@ -21,7 +24,10 @@ const routes: Routes = [
   {path:'sayali',component:SayaliinfoComponent},
   {path:'bhavana',component: BhavanaComponent},
   {path:'sakshi',component: SakshiComponent},
-  {path:'vidya',component:VidyaComponent}
+  {path:'vidya',component:VidyaComponent},
+  {path:'om',component:OmComponent},
+  {path:'kajal',component:KajalComponent},
+  {path:'heena',component:HeenaComponent}
  
   
 

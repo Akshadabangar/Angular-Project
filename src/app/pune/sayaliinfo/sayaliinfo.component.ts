@@ -22,7 +22,7 @@ export class SayaliinfoComponent {
   description2: string = 'Strawberry cake is a delicious dessert made with Strawberry flavoring,';
   price2: number = 7;
   
-  
+  sayaliurl="https://www.shutterstock.com/image-photo/beautiful-focused-pastry-chef-woman-600nw-1877250850.jpg";
   url="https://img.freepik.com/premium-photo/whole-fancy-chocolate-cake-white-background_908985-33714.jpg";
   url2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tHhnxoUtxHSYWJw7sFkwkYZ8-_RAl9mVCQ&s";
   url3="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FEdit%2F2023-01-Chocolate-Strawberry-Cakes%2Fchocolate-strawberry-cake-1"; 

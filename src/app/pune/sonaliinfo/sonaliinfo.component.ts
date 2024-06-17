@@ -22,7 +22,7 @@ export class SonaliinfoComponent {
   description2: string = 'Butterscotch cake is a delicious dessert made with butterscotch flavoring,';
   price2: number = 7;
   
- 
+  sonaliurl="https://www.shutterstock.com/image-photo/young-beautiful-hispanic-woman-smiling-600nw-2344830789.jpg";
   url="https://i1.fnp.com/images/pr/uk/x/v20201016201146/fruit-cake_1.jpg";
   url2="https://cdn.shopify.com/s/files/1/0670/2659/products/Chocolate_Bliss_Birthday.jpeg?v=1493092157";
   url3="https://cdn.dotpe.in/longtail/store-items/7824589/WtGOEN9y.jpeg"; 

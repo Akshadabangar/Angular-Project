@@ -1,16 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+  .style
+  {
 
-.body {
-    background-image: url('https://thumbs.dreamstime.com/b/elegant-wedding-cake-closed-up-blur-background-133485656.jpg'); /* Adjust the path to your image file if necessary */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-     background-position: center;
-      margin: 0;
-       padding: 0;
-       height: 100vh;
-   
+ 
+  background-image: url('https://img.freepik.com/premium-photo/pink-cake-with-pink-icing-pink-roses-top_265515-6546.jpg'); 
+  background-size: 100% 100%; 
+  background-position: center; 
+  margin: 0; padding: 0;
+  height: 100wh; 
   }

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class PuneComponent {
 
   
-akshadaurl="https://4.bp.blogspot.com/-2MQP5D_p5s0/WQbIjpPA8_I/AAAAAAAAGXs/6vNC4ogcw9ESmxOx_R69upefdS0LGm53wCLcB/s1600/f2794b6dff83ba4c11ab8de0f467a5ef.jpg";
-sonaliurl="https://wallpapercave.com/wp/wp4603353.jpg";
-sayaliurl="https://wallpapercave.com/wp/wp2586728.jpg";
+akshadaurl="https://imagedelivery.net/7a7BghXfEmMHfPiDMUvEIw/99907c8e-70a5-4444-143f-888307997100/w=9999";
+sonaliurl="https://www.shutterstock.com/image-photo/young-beautiful-hispanic-woman-smiling-600nw-2344830789.jpg";
+sayaliurl="https://www.shutterstock.com/image-photo/beautiful-focused-pastry-chef-woman-600nw-1877250850.jpg";
 }

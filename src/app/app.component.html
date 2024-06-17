@@ -1,6 +1,6 @@
 
 
-
+<!--NAVBAR-->
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -35,22 +35,30 @@
   </div>
 </nav>
 
-<!--SEARCH BUTTON
-  <form >
-    <div class="container">
-    <label for="search"></label>
-    <input type="text" id="search" name="q" placeholder="Search your city">
-    <input type="submit" value="Search">
-    </div>
-  </form>-->
-  
 
-  
+<!--DETECT LOCATION
+<div>
+  <h2>Detect my location {{userIP}}</h2>
+</div>-->
+
+<!--
+<div *ngIf="latitude !== undefined && longitude !== undefined">
+  <p>Latitude: {{ latitude }}</p>
+  <p>Longitude: {{ longitude }}</p>
+</div>
+<div *ngIf="locationError">
+  <p>{{ locationError }}</p>
+</div>
+<div *ngIf="latitude === undefined && longitude === undefined && !locationError">
+  <p>Loading...</p>
+</div>-->
+
+
   <!--PUNE/MUMBAI/NASHIK-->
 
 <div class="container">
   <div style="margin-top: 50px;">
-
+    
 <button routerLink="/pune">Pune</button>
 <span style="margin-right: 30px;"></span> 
 <router-outlet></router-outlet>
@@ -65,9 +73,15 @@
 
 
 </div>
-
-
 </div>
+
+
+
+
+
+
+
+ 
 
 
 

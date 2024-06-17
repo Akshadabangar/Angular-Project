@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,10 @@ import { FormsModule } from '@angular/forms';
 import { BhavanaComponent } from './mumbai/bhavana/bhavana.component';
 import { SakshiComponent } from './mumbai/sakshi/sakshi.component';
 import { VidyaComponent } from './mumbai/vidya/vidya.component';
+import { OmComponent } from './nashik/om/om.component';
+
+import { KajalComponent } from './nashik/kajal/kajal.component';
+import { HeenaComponent } from './nashik/heena/heena.component';
 
 
 @NgModule({
@@ -26,13 +31,17 @@ import { VidyaComponent } from './mumbai/vidya/vidya.component';
     SayaliinfoComponent,
     BhavanaComponent,
     SakshiComponent,
-    VidyaComponent
+    VidyaComponent,
+    OmComponent,
+   KajalComponent,
+    HeenaComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
