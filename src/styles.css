@@ -6,8 +6,8 @@
 
  
   background-image: url('https://img.freepik.com/premium-photo/pink-cake-with-pink-icing-pink-roses-top_265515-6546.jpg'); 
-  background-size: 100% 100%; 
-  background-position: center; 
-  margin: 0; padding: 0;
-  height: 100wh; 
+  background-size: cover; 
+  /*background-position: center; 
+  margin: 0; padding: 0;*/
+  height: fit-content
   }

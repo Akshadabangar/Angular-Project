@@ -25,9 +25,9 @@ export class HeenaComponent {
   price2: number = 7;
   
   heenaurl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcl_jpTzQ_9Scdkrts0RfRzSOugRtCNdmvQ&s";
-  url="https://i.pinimg.com/736x/0c/a9/97/0ca997c54a308ae8bd5d92fcdc68571b.jpg";
-  url2="https://sahnibakery.com/cdn/shop/products/AppetizingButterscotchCake699@2x.jpg?v=1609333737";
-  url3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2RdwbRHf7vkg4PAg7tOFAGjTyTvePZ4-bJQ&s"; 
+  url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3dU2YNn01QVCNDI5FLgsU0vBgwp_sSJx0Q&s";
+  url2="https://thomsonline.in/wp-content/uploads/2019/08/BUTTERSCOTCH-CAKE-3-750x500.jpg";
+  url3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3dU2YNn01QVCNDI5FLgsU0vBgwp_sSJx0Q&s"; 
   
   //DECLARE VARIAVLE OREDER BUTTON AND SUBMIT
   showTextBox: boolean = false;

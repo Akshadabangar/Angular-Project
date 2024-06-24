@@ -1,0 +1,22 @@
+<!-- <div>
+{{vendors[1].Name}} 
+{{vendors[1].Address}}
+</div> -->
+
+<!-- 
+<div style="text-align: center;">
+    <button (click)="showVendors('pune')" style="margin-right: 30px;">Pune</button>
+    <button (click)="showVendors('Mumbai')" style="margin-right: 30px;">Mumbai</button>
+    <button (click)="showVendors('Nashik')" style="margin-right: 30px;">Nashik</button>
+  </div> -->
+  
+  <div *ngIf="selectedlocation">
+    <h2>{{ selectedlocation }}</h2>
+    <div *ngFor="let vendor of vendors[selectedlocation]">
+      <h3>{{ vendor.Name }}</h3>
+      <p>{{ vendor.Address }}</p>
+      {{vendor.url}}
+    </div>
+  </div> 
+
+  <p>location work!</p>

@@ -1,6 +1,5 @@
 
-
-<!--NAVBAR-->
+<!--NAVBAR
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -33,7 +32,7 @@
       </form>
     </div>
   </div>
-</nav>
+</nav>-->
 
 
 <!--DETECT LOCATION
@@ -59,21 +58,33 @@
 <div class="container">
   <div style="margin-top: 50px;">
     
-<button routerLink="/pune">Pune</button>
+<button routerLink="/location" >Pune</button>
 <span style="margin-right: 30px;"></span> 
-<router-outlet></router-outlet>
 
-<button routerLink="/mumbai">Mumbai</button>
+<button routerLink="/location">Mumbai</button>
 <span style="margin-right: 30px;"></span> 
-<router-outlet></router-outlet>
 
-<button routerLink="/nashik">Nashik</button>
+<button routerLink="/location">Nashik</button>
 <span style="margin-right: 30px;"></span> 
+
+
+<div style="margin-top: 30px;">
+<input type="search" style="width: 150px;" placeholder="search your loaction">
+<button type="search" value="sumbit" style="width: 10;">search</button>
+
+
 <router-outlet></router-outlet>
-
-
 </div>
 </div>
+
+
+
+ 
+
+
+
+
+
 
 
 

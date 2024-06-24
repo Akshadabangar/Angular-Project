@@ -18,6 +18,11 @@ import { OmComponent } from './nashik/om/om.component';
 
 import { KajalComponent } from './nashik/kajal/kajal.component';
 import { HeenaComponent } from './nashik/heena/heena.component';
+import { LocationComponent } from './location/location.component';
+
+import { CakedetailsComponent } from './cakedetails/cakedetails.component';
+import { VendorService } from './vendor.service';
+
 
 
 @NgModule({
@@ -34,17 +39,24 @@ import { HeenaComponent } from './nashik/heena/heena.component';
     VidyaComponent,
     OmComponent,
    KajalComponent,
-    HeenaComponent
+    HeenaComponent,
+    LocationComponent,
+  
+    CakedetailsComponent,
+       
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+  HttpClientModule
   ],
   providers: [
-    provideClientHydration()
+
+    provideClientHydration(),
+    VendorService
+
   ],
   bootstrap: [AppComponent]
 })

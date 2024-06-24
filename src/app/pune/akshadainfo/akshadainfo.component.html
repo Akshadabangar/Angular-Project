@@ -31,9 +31,9 @@
    <button (click)="submitOrder()" style="color: blue;">Submit</button>
    {{orderText}}
   </div>
+</div>
+</div>
 
-</div>
-</div>
 
   
 <!--SECOND CAKE INFORMATION-->
@@ -60,9 +60,9 @@
    {{orderText1}}
    </div>
 
-   
   </div>
   </div>
+  
   
 
 <!--THIRD CAKE INFORMATION-->
@@ -83,14 +83,14 @@
       <div class="button">
       <button (click)="textbox2()" style="color: chocolate;">Order</button>
        <div *ngIf="showTextBox2">
-        <input type="text" [(ngModel)]="orderText2" placeholder="Enter your order" style="width: 200px; height: 50px;">
+        <input type="text" [(ngModel)]="orderText2" placeholder="Enter your order" style="width: 200px; height: 50px;" >
         
         <button (click)="submitOrder2()" style="color: blue;">Submit</button>
         {{orderText2}}
        </div>
 
-       
+      </div> 
     </div>
-  </div>
+  
 
   

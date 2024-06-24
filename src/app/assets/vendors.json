@@ -1,0 +1,75 @@
+{  
+  
+    "Pune": [
+      {
+        "id": 1,
+        "Name": "Akshada Bangar",
+       "Address":"Deccan Gymkhana, Pune"
+       
+       },
+  
+      {
+        "id": 2,
+        "Name": "Sonali Rakshe",
+       "Address":"Kondhwa Budruk, Pune"
+       
+      },
+
+      {
+        "id": 3,
+        "Name": "Sayali Padir",
+       "Address":"Kothrud, Pune"
+      
+      }
+    ],
+  
+  
+  "Mumbai": [
+      {
+        "id": 4,
+        "Name": "Bhavana Deshmukh",
+       "Address":"Ghatkopar West, Mumbai "
+  
+      },
+  
+      {
+        "id": 5,
+        "Name": "Sakshi Pokharkar",
+       "Address":"Mulund East, Mumbai"
+        
+      },
+
+      {
+        "id": 6,
+        "Name": "Vidya Morde",
+       "Address":"Navghar Road Mulund East, Mumbai"
+      }
+    ],
+
+    "Nashik": [
+      {
+        "id": 7,
+        "Name": "Om Jadhav",
+       "Address":"Garden Road Shramik Nagar, Nashik "
+  
+      },
+  
+      {
+        "id": 8,
+        "Name": "Kajal Wable",
+       "Address":"Shramik Nagar, Nashik "
+        
+      },
+
+      {
+        "id": 9,
+        "Name": "Heena Mandal",
+       "Address":"Pakhal Road-Wadala, Nashik "
+      }
+    ]
+
+    
+  
+  
+  
+}

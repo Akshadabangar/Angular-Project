@@ -13,6 +13,7 @@ import { VidyaComponent } from './mumbai/vidya/vidya.component';
 import { OmComponent } from './nashik/om/om.component';
 import { KajalComponent } from './nashik/kajal/kajal.component';
 import { HeenaComponent } from './nashik/heena/heena.component';
+import { LocationComponent } from './location/location.component';
 
 const routes: Routes = [
 
@@ -27,7 +28,8 @@ const routes: Routes = [
   {path:'vidya',component:VidyaComponent},
   {path:'om',component:OmComponent},
   {path:'kajal',component:KajalComponent},
-  {path:'heena',component:HeenaComponent}
+  {path:'heena',component:HeenaComponent},
+  {path:'location',component:LocationComponent}
  
   
 

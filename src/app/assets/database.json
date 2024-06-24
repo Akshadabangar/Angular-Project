@@ -1,0 +1,45 @@
+{
+
+
+
+  
+  "akshada": [
+    {
+      "id": 1,
+      "Flavor": "Chocolate",
+      "Ingredients":["Flour","Sugar","Butter","Coco Pwder"],
+      "Description":"A rich and moist chocolate cake that is perfect for any occasion.",
+      "price":200
+
+    },
+
+    {
+       "id": 2,
+      "Flavor": "ButterScotch",
+      "Ingredients":["Flour","Sugar","Butter","Eggs"],
+      "Description":"The cake is created as the customer wants.",
+      "price":250
+      
+    }
+  ],
+
+
+
+ "sonali": [  {
+        "id": 3,
+      "Flavor": "Strawberry",
+      "Ingredients":["Flour","Sugar","Strawberries","Vanilla extract"],
+      "Description":"Enjoy your delicious homemade Strawberry cake!",
+      "price":260
+     
+    }
+  ]
+
+
+
+
+
+}
+
+
+
