@@ -1,0 +1,13 @@
+<div style="margin-top: 10px;">
+
+<div style="text-align: center;">
+  <div class="container">
+   
+<div *ngFor="let desh of databasename.location">
+  <button (click)="mymethod(desh.city)"  class="button" > {{ desh.city }}</button>
+</div>
+  
+</div>
+<router-outlet></router-outlet>
+</div>
+</div>

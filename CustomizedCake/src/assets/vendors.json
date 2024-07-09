@@ -1,0 +1,265 @@
+{
+   
+    "Pune":[
+        {
+            "id":0,
+            "Name":"Akshada Bangar",
+            "Address":"Deccan Gymkhana,Pune",
+            "img":"/assets/v1.jpg",
+
+            "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c2.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c3.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+           
+        },
+
+        {
+            "id":1,
+            "Name":"Sonali Rakshe",
+            "Address":"Kondhwa Budruk,Pune",
+            "img":"/assets/v2.jpg",
+
+            "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c5.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c6.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+
+        },
+
+        {
+            "id":2,
+            "Name":"Sahil Mundhe",
+            "Address":"Kothrud,Pune",
+            "img":"/assets/v3.jpg",
+
+            "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c2.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c3.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+
+        }
+    ],
+
+
+    "Mumbai":[
+        {
+            "id":0,
+            "Name":"Bhavana Deshmukh",
+            "Address":"Ghatkopar west,Mumbai",
+            "img":"/assets/v2.jpg",
+
+            "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c2.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c3.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+
+        },
+
+        {
+            "id":1,
+            "Name":"Sakshi Pokharkar",
+            "Address":"Mulund East,Mumbai",
+            "img":"/assets/v5.jpg",
+
+            "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c5.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c6.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+        },
+
+        {
+            "id":2,
+            "Name":"vidya Morde",
+            "Address":"Navagar Road Mulund East,Mumbai",
+             "img":"/assets/v6.jpg",
+
+             "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c5.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c6.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+        }
+    ],
+
+    "Nashik":[
+        {
+            "id":0,
+            "Name":"Om Jadhv",
+            "Address":"Shramik Nagar,Nashik",
+             "img":"/assets/v7.jpg",
+
+             "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c5.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c6.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+        },
+
+        {
+            "id":1,
+            "Name":"Kajal wable",
+            "Address":"Shramik Nagar,Nashik",
+             "img":"/assets/v8.jpg",
+
+             "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c5.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c6.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+        },
+
+        {
+            "id":2,
+            "Name":"Heena Mandal",
+            "Address":"Pakhal Road-wadala,Nashik",
+             "img":"/assets/v9.jpg",
+             "cakeinfo":[
+                {
+                    "img1":"/assets/c1.jpg",
+                    "flavour":"Chocolate",
+                    "price": 250
+                },
+
+                {
+                    "img1":"/assets/c5.jpg",
+                    "flavour":"Strawberry",
+                    "price": 300
+                },
+
+                {
+                    "img1":"/assets/c6.jpg",
+                    "flavour":"Butterscotch",
+                    "price": 260
+                }
+
+            ]
+        }
+    ]
+    
+}

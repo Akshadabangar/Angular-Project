@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Order Form</title>
+  <style>
+    body {
+      font-family:'Times New Roman', Times, serif;
+      
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 70%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    textarea {
+      height: 100px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+ 
+  <form action="/submit-order" method="post" >
+    <h2>Order Your Cake</h2>
+    <div class="form-group">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required [(ngModel)]="orderName">
+    </div>
+
+    
+    <div class="form-group">
+      <label for="phone">Your Phone Number:</label>
+      <input type="text" id="phone" name="phone" required [(ngModel)]="orderNumber">
+    </div>
+
+    <div class="form-group">
+      <label for="cake-type">Cake Type:</label>
+      <select id="cake-type" name="cake-type" required [(ngModel)]="orderSelect" >
+        <option value="">Select Cake Type</option>
+        <option value="birthday">Birthday Cake</option>
+        <option value="wedding">Wedding Cake</option>
+        <option value="cupcakes">Cupcakes</option>
+        
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <label for="delivery-date">Delivery Date:</label>
+      <input type="date" id="delivery-date" name="delivery-date" required [(ngModel)]="orderDate" >
+    </div>
+
+    <div class="form-group">
+      <label for="delivery-address">Delivery Address:</label>
+      <textarea id="delivery-address" name="delivery-address" required [(ngModel)]="orderAddress"></textarea>
+    </div>
+
+    <button type="submit" (click)="submitOrder()">Submit Order</button>
+  </form>
+
+</body>
+</html>
+

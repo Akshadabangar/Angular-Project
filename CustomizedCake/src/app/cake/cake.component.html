@@ -1,0 +1,25 @@
+<!-- <div>{{varr1}}</div>  -->
+ <!-- <div class="card"> -->
+<div style="margin-top: 30px;">
+ <div style>
+<div class="row">
+<div class="col-sm-4" *ngFor="let cake of varr1">
+    <img class="shadow-image" img *ngIf="cake.img1" [src]="cake.img1" height="200" width="200">
+    <figcaption> Flavour: {{ cake.flavour }} </figcaption>
+    <figcaption>Price: {{ cake.price}}</figcaption>
+ 
+
+
+    <div style="margin-top: 10px;"></div>
+    <button style="color: chocolate;" (click)="textbox()" routerLink="/order">order</button>
+  </div>
+    <!-- <div *ngIf="showtextBox">
+  
+      <input type="text" [(ngModel)]="orderText" placeholder="Enter your order..." style="height: 50px; width: 100;" >
+      <button (click)="submitOrder()">submit</button>
+    </div>
+  -->
+  </div>
+</div>
+</div>
+  <!-- </div> -->
